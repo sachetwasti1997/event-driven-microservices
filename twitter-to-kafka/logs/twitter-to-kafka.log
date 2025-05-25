@@ -1,0 +1,248 @@
+2025-05-25 15:23:06 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - LOGGING SOME DATA
+2025-05-25 15:23:06 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 21.0.7 with PID 10330 (/Volumes/SachetSSD/IdeaProject/twitter-to-kafka/target/classes started by swasti in /Volumes/SachetSSD/IdeaProject/microservices-demo)
+2025-05-25 15:23:06 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-25 15:23:06 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ba4ff351-5428-3afc-8ed4-08b355f0d240
+2025-05-25 15:23:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-25 15:23:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-25 15:23:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-25 15:23:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-25 15:23:07 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-25 15:23:07 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 372 ms
+2025-05-25 15:23:07 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-25 15:23:07 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-25 15:23:07 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-25 15:23:07 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-25 15:23:07 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1748166787464 with initial instances count: 0
+2025-05-25 15:23:07 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application TWITTER-TO-KAFKA with eureka with status UP
+2025-05-25 15:23:07 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1748166787466, current=UP, previous=STARTING]
+2025-05-25 15:23:07 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka: registering service...
+2025-05-25 15:23:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-25 15:23:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-25 15:23:07 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8080
+2025-05-25 15:23:07 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.94 seconds (process running for 1.237)
+2025-05-25 15:23:07 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - registration status: 204
+2025-05-25 15:23:37 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-25 15:23:37 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-25 15:23:37 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-25 15:23:37 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-25 15:23:37 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-25 15:23:37 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2025-05-25 15:23:37 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-25 15:23:37 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-25 15:27:00 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application TWITTER-TO-KAFKA with eureka with status DOWN
+2025-05-25 15:27:00 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1748167020496, current=DOWN, previous=UP]
+2025-05-25 15:27:00 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka: registering service...
+2025-05-25 15:27:00 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-25 15:27:00 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-25 15:27:00 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-25 15:27:00 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - registration status: 204
+2025-05-25 15:27:00 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-25 15:27:00 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - deregister  status: 200
+2025-05-25 15:27:00 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-25 15:27:01 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 21.0.7 with PID 10351 (/Volumes/SachetSSD/IdeaProject/twitter-to-kafka/target/classes started by swasti in /Volumes/SachetSSD/IdeaProject/microservices-demo)
+2025-05-25 15:27:01 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-25 15:27:02 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ba4ff351-5428-3afc-8ed4-08b355f0d240
+2025-05-25 15:27:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-25 15:27:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-25 15:27:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-25 15:27:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-25 15:27:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-25 15:27:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 384 ms
+2025-05-25 15:27:02 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-25 15:27:02 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-25 15:27:02 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-25 15:27:02 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-25 15:27:02 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1748167022792 with initial instances count: 1
+2025-05-25 15:27:02 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application TWITTER-TO-KAFKA with eureka with status UP
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1748167022794, current=UP, previous=STARTING]
+2025-05-25 15:27:02 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka: registering service...
+2025-05-25 15:27:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-25 15:27:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-25 15:27:02 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8080
+2025-05-25 15:27:02 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.998 seconds (process running for 1.3)
+2025-05-25 15:27:02 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - App Starts
+2025-05-25 15:27:02 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - registration status: 204
+2025-05-25 15:27:02 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-25 15:27:02 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.NullPointerException: Cannot invoke "java.util.List.toArray(Object[])" because the return value of "com.event.twitter.to.kafka.config.model.TwitterToKafkaServiceConfigData.getTwitterKeywords()" is null
+	at com.event.twitter.to.kafka.TwitterToKafkaApplication.run(TwitterToKafkaApplication.java:29)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:789)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:797)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:788)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:773)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.event.twitter.to.kafka.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:23)
+2025-05-25 15:27:02 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application TWITTER-TO-KAFKA with eureka with status DOWN
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1748167022818, current=DOWN, previous=UP]
+2025-05-25 15:27:02 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka: registering service...
+2025-05-25 15:27:02 [main] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-25 15:27:02 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-25 15:27:02 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - registration status: 204
+2025-05-25 15:27:02 [main] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-25 15:27:05 [main] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-25 15:27:05 [main] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - deregister  status: 200
+2025-05-25 15:27:05 [main] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-25 15:27:13 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 21.0.7 with PID 10355 (/Volumes/SachetSSD/IdeaProject/twitter-to-kafka/target/classes started by swasti in /Volumes/SachetSSD/IdeaProject/microservices-demo)
+2025-05-25 15:27:13 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-25 15:27:13 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ba4ff351-5428-3afc-8ed4-08b355f0d240
+2025-05-25 15:27:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-25 15:27:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-25 15:27:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-25 15:27:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-25 15:27:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-25 15:27:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 358 ms
+2025-05-25 15:27:14 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-25 15:27:14 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-25 15:27:14 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-25 15:27:14 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-25 15:27:14 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1748167034300 with initial instances count: 1
+2025-05-25 15:27:14 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application TWITTER-TO-KAFKA with eureka with status UP
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1748167034302, current=UP, previous=STARTING]
+2025-05-25 15:27:14 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka: registering service...
+2025-05-25 15:27:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-25 15:27:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-25 15:27:14 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8080
+2025-05-25 15:27:14 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.934 seconds (process running for 1.235)
+2025-05-25 15:27:14 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - App Starts
+2025-05-25 15:27:14 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - registration status: 204
+2025-05-25 15:27:14 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-25 15:27:14 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.NullPointerException: Cannot invoke "java.util.List.toArray(Object[])" because the return value of "com.event.twitter.to.kafka.config.model.TwitterToKafkaServiceConfigData.getTwitterKeywords()" is null
+	at com.event.twitter.to.kafka.TwitterToKafkaApplication.run(TwitterToKafkaApplication.java:29)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:789)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:797)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:788)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:773)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.event.twitter.to.kafka.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:23)
+2025-05-25 15:27:14 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application TWITTER-TO-KAFKA with eureka with status DOWN
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1748167034323, current=DOWN, previous=UP]
+2025-05-25 15:27:14 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka: registering service...
+2025-05-25 15:27:14 [main] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-25 15:27:14 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-25 15:27:14 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - registration status: 204
+2025-05-25 15:27:14 [main] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-25 15:27:17 [main] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-25 15:27:17 [main] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - deregister  status: 200
+2025-05-25 15:27:17 [main] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-25 15:27:44 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 21.0.7 with PID 10357 (/Volumes/SachetSSD/IdeaProject/twitter-to-kafka/target/classes started by swasti in /Volumes/SachetSSD/IdeaProject/microservices-demo)
+2025-05-25 15:27:44 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-25 15:27:44 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ba4ff351-5428-3afc-8ed4-08b355f0d240
+2025-05-25 15:27:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-25 15:27:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-25 15:27:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-25 15:27:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-25 15:27:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-25 15:27:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 366 ms
+2025-05-25 15:27:44 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-25 15:27:44 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-25 15:27:44 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-25 15:27:44 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-25 15:27:44 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-25 15:27:44 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-25 15:27:44 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-25 15:27:44 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-25 15:27:44 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-25 15:27:44 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-25 15:27:44 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-25 15:27:44 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-25 15:27:45 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-25 15:27:45 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-25 15:27:45 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-25 15:27:45 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1748167065127 with initial instances count: 0
+2025-05-25 15:27:45 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application TWITTER-TO-KAFKA with eureka with status UP
+2025-05-25 15:27:45 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1748167065129, current=UP, previous=STARTING]
+2025-05-25 15:27:45 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka: registering service...
+2025-05-25 15:27:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-25 15:27:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-25 15:27:45 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8080
+2025-05-25 15:27:45 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.94 seconds (process running for 1.23)
+2025-05-25 15:27:45 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - App Starts
+2025-05-25 15:27:45 [main] INFO  c.e.t.t.k.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, ElasticSearch]
+2025-05-25 15:27:45 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - registration status: 204
+2025-05-25 15:28:15 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-25 15:28:15 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-25 15:28:15 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-25 15:28:15 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-25 15:28:15 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-25 15:28:15 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2025-05-25 15:28:15 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-25 15:28:15 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-25 15:32:44 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-25 15:45:00 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-25 16:33:29 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-25 16:35:30 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application TWITTER-TO-KAFKA with eureka with status DOWN
+2025-05-25 16:35:30 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1748171130855, current=DOWN, previous=UP]
+2025-05-25 16:35:30 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka: registering service...
+2025-05-25 16:35:30 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-25 16:35:30 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-25 16:35:30 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-25 16:35:30 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - registration status: 204
+2025-05-25 16:35:30 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-25 16:35:30 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_TWITTER-TO-KAFKA/192.168.1.2:twitter-to-kafka - deregister  status: 200
+2025-05-25 16:35:30 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
